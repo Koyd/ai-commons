@@ -1,0 +1,87 @@
+# Modern LLMs
+@slug: modern-llms
+@description: A practical map from neural-network foundations to useful language models.
+@order: 1
+
+@section before-you-start | Before you start
+## This is not a calculus course.
+
+The goal of this course is to build an approximately comprehensive understanding of modern large language models (LLM), not go through a first year undergraduate math sequence.
+
+We will use concepts from calculus, linear algebra, statistics and information theory as assumed knowledge. More in-depth material, like stochastic differential equations, manifolds, or specific derivations will be explained, though not from first principles.
+
+::component Callout
+{
+  "title": "The prerequisite",
+  "body": "You should be familiar with stochastic gradient descent, and some undergraduate mathematics; specifically up to differential equations, distributions, and linear transformations."
+}
+::end
+
+@section recommended-foundations | Recommended foundations
+## Start here if backpropagation still feels fuzzy.
+
+I recommend these videos from Grant / 3Blue1Brown. They were there for my initiation on the subject, and they still hold up timelessly for a visual, intuitive introduction to neural networks, gradient descent, and backpropagation. The fourth video finally connects the idea to calculus.
+::component YouTubePlaylist
+{
+  "title": "3Blue1Brown's Introduction to Machine Learning",
+  "videos": [
+    {
+      "url": "aircAruvnKk",
+      "title": "But what is a neural network?",
+      "author": "3Blue1Brown"
+    },
+    {
+      "url": "IHZwWFHWa-w",
+      "title": "Gradient descent, how neural networks learn",
+      "author": "3Blue1Brown"
+    },
+    {
+      "url": "Ilg3gGewQ5U",
+      "title": "What is backpropagation really doing?",
+      "author": "3Blue1Brown"
+    },
+    {
+      "url": "tIeHLnjs5U8",
+      "title": "Backpropagation calculus",
+      "author": "3Blue1Brown"
+    }
+  ]
+}
+::end
+
+> We will go deeper later when we study gradient behavior and activation sparsity. For now, a strong mental model is more than enough.
+
+@section how-to-use-this-guide | How to use this guide
+## This is a sequential course, it builds up.
+
+The main text is the course. Videos, papers, and demonstrations deepen a point, but modules won't be standalone units, they will rely on previous material.
+::component Steps
+{
+  "items": [
+    {
+      "title": "Read once for the shape",
+      "description": "Build the high-level model, glossing over derivation."
+    },
+    {
+      "title": "Re-examine the details when comfortable",
+      "description": "Not every derivation or idea is obvious, take your time when needed."
+    },
+    {
+      "title": "Dive deeper",
+      "description": "Use the linked ressources off your own initiative to get a deeper view on a specific idea."
+    }
+  ]
+}
+::end
+
+@section where-we-go-next | Where we go next
+## Embedding Layer and Vocabulary.
+
+Next we will explain tokenization, the embedding layer and modern implementations.
+
+::component NextLesson
+{
+  "label": "Coming next",
+  "title": "Neural networks"
+}
+::end
